@@ -18,5 +18,5 @@ CLEANFILES:=$(CLEANFILES) $(TARG)
 $(OFILES) $(MOFILE): $(HFILES)
 
 clean:
-	rm -f *.o $(CLEANFILES)
+	rm -f *.o $(CLEANFILES) .make-deps
 .PHONY: clean
