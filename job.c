@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "dat.h"
+#include "deps/jemalloc/include/jemalloc/jemalloc.h"
 
 static uint64 next_id = 1;
 
